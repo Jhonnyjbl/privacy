@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcript de Carrinho - 1508988252768571532</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #36393f;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #5865F2 0%, #7289da 100%);
+            padding: 30px;
+            color: white;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .header .info {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .cart-info {
+            padding: 25px;
+            background: #2f3136;
+            border-bottom: 2px solid #5865F2;
+        }
+        
+        .cart-info h2 {
+            color: #5865F2;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .info-item {
+            background: #40444b;
+            padding: 12px;
+            border-radius: 6px;
+        }
+        
+        .info-item label {
+            display: block;
+            color: #99aab5;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+        
+        .info-item span {
+            color: #fff;
+            font-weight: bold;
+        }
+        
+        .products-section {
+            padding: 25px;
+        }
+        
+        .products-section h2 {
+            color: #5865F2;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        
+        .product-item {
+            background: #40444b;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            border-left: 4px solid #5865F2;
+        }
+        
+        .product-name {
+            color: #fff;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        
+        .product-details {
+            color: #dcddde;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        .price-summary {
+            background: #2f3136;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        
+        .price-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            color: #dcddde;
+        }
+        
+        .price-row.total {
+            font-size: 18px;
+            font-weight: bold;
+            color: #57f287;
+            border-top: 2px solid #5865F2;
+            padding-top: 15px;
+            margin-top: 15px;
+        }
+        
+        .messages-section {
+            padding: 25px;
+            background: #2f3136;
+        }
+        
+        .messages-section h2 {
+            color: #5865F2;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        
+        .message {
+            display: flex;
+            margin-bottom: 15px;
+            padding: 12px;
+            background: #40444b;
+            border-radius: 8px;
+        }
+        
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 12px;
+        }
+        
+        .message-content {
+            flex: 1;
+        }
+        
+        .message-author {
+            color: #fff;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .message-text {
+            color: #dcddde;
+            line-height: 1.5;
+        }
+        
+        .footer {
+            background: #2f3136;
+            padding: 30px 20px;
+            text-align: center;
+            color: #99aab5;
+            font-size: 14px;
+            border-top: 1px solid #40444b;
+        }
+        
+        .credits {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .credits-logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #5865F2 0%, #7289da 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            margin: 0 auto;
+        }
+        
+        .credits-text {
+            font-size: 13px;
+            color: #99aab5;
+        }
+        
+        .credits-text strong {
+            color: #fff;
+        }
+        
+        .powered-by {
+            margin-top: 10px;
+            padding-top: 15px;
+            border-top: 1px solid #40444b;
+            font-size: 12px;
+            color: #72767d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛒 Transcript de Carrinho</h1>
+            <div class="info">
+                <p><strong>ID do Carrinho:</strong> 1508988252768571532</p>
+                <p><strong>Gerado em:</strong> 26/05/2026 21:21:56</p>
+            </div>
+        </div>
+        
+        
+        <div class="cart-info">
+            <h2>📋 Informações do Carrinho</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <label>ID do Usuário</label>
+                    <span>1000961474086322249</span>
+                </div>
+                <div class="info-item">
+                    <label>Status</label>
+                    <span>Aprovado</span>
+                </div>
+                <div class="info-item">
+                    <label>Data de Criação</label>
+                    <span>26/05/2026 21:20:34</span>
+                </div>
+                <div class="info-item">
+                    <label>Método de Pagamento</label>
+                    <span>PIX</span>
+                </div>
+                <div class="info-item">
+                    <label>Provedor</label>
+                    <span>UNKNOWN</span>
+                </div>
+                <div class="info-item">
+                    <label>Cupom</label>
+                    <span>Nenhum</span>
+                </div>
+            </div>
+            
+            <div class="price-summary">
+                <div class="price-row">
+                    <span>Subtotal:</span>
+                    <span>R$ 0,50</span>
+                </div>
+                
+                
+                <div class="price-row total">
+                    <span>Total Final:</span>
+                    <span>R$ 0,50</span>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div class="products-section">
+            <h2>🛒 Produtos</h2>
+        
+            <div class="product-item">
+                <div class="product-name">UP Conta GTA 5 Enhanced</div>
+                <div class="product-details">
+                    <strong>Campo:</strong> Conta upada rápido<br>
+                    <strong>Quantidade:</strong> 10<br>
+                    <strong>Preço unitário:</strong> R$ 0,05<br>
+                    <strong>Total:</strong> R$ 0,50
+                </div>
+            </div>
+            </div>
+        
+        <div class="messages-section">
+            <h2>💬 Mensagens do Carrinho</h2>
+            
+            <div class="message">
+                <img src="https://cdn.discordapp.com/avatars/1507126416834171030/801ef6fe1bdb3ce16da7291649bde1cc.png?size=1024" alt="Privacyᵇᵒᵗ" class="avatar">
+                <div class="message-content">
+                    <div class="message-author">Privacyᵇᵒᵗ <span style="color: #99aab5; font-size: 12px;">26/05/2026 21:21:51</span></div>
+                    <div class="message-text">⌚・UP Conta GTA 5 Enhanced・cherryprivacy</div>
+                    
+                </div>
+            </div>
+            
+            <div class="message">
+                <img src="https://cdn.discordapp.com/avatars/1507126416834171030/801ef6fe1bdb3ce16da7291649bde1cc.png?size=1024" alt="Privacyᵇᵒᵗ" class="avatar">
+                <div class="message-content">
+                    <div class="message-author">Privacyᵇᵒᵗ <span style="color: #99aab5; font-size: 12px;">26/05/2026 21:21:57</span></div>
+                    <div class="message-text"></div>
+                    
+                </div>
+            </div>
+            
+            <div class="message">
+                <img src="https://cdn.discordapp.com/avatars/1507126416834171030/801ef6fe1bdb3ce16da7291649bde1cc.png?size=1024" alt="Privacyᵇᵒᵗ" class="avatar">
+                <div class="message-content">
+                    <div class="message-author">Privacyᵇᵒᵗ <span style="color: #99aab5; font-size: 12px;">26/05/2026 21:21:57</span></div>
+                    <div class="message-text"><img src="https://cdn.discordapp.com/emojis/1507130324646105220.png" alt=":warn:" style="vertical-align: middle; height: 24px; width: 24px;" **Itens de entrega manual aguardando entrega.** @&1508520530548887685
+
+<img src="https://cdn.discordapp.com/emojis/1507130146778513528.png" alt=":arrow:" style="vertical-align: middle; height: 24px; width: 24px;" **UP Conta GTA 5 Enhanced** - `Conta upada rápido` (x10)</div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+            <p>Gerado automaticamente pelo bot • 26/05/2026 21:21:56</p>
+            <div class="credits">
+                <div class="credits-logo">🏢</div>
+                <div class="credits-text">
+                    <strong>Privacy Bot</strong><br>
+                    Sistema de gestão de tickets e suporte
+                </div>
+                <div class="powered-by">
+                    Powered by Privacy • © 2026
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
